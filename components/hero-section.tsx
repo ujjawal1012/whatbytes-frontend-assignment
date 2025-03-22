@@ -55,7 +55,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           </div>
         </div>
         <Button
-          className="bg-[#122279] rounded-[10px] border-[3px] border-black font-medium text-[14px] py-[12px] px-[30px] !min-h-fit  text-white"
+          className=" cursor-pointer bg-[#122279] rounded-[10px] border-[3px] border-black font-medium text-[14px] py-[12px] px-[30px] !min-h-fit  text-white"
           onClick={() => setShowUpdateDialog(true)}
         >
           Update
