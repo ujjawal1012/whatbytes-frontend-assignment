@@ -148,19 +148,17 @@ export function UpdateScoresDialog({
                       <span className="font-bold">{field.label}</span>
                     </label>
 
-                    <Input
+                    <input
                       name={field.name}
                       type="number"
                       value={field.value}
                       onChange={handleInputChange}
-                      className={`w-48 border-2 rounded-lg px-2 ${
+                      className={`w-48 border-2 rounded-lg px-2 py-2 ${
                         errors[field.name]
                           ? "border-red-500"
                           : "border-[#a3bef0]"
                       }`}
-                      classNames={{
-                        inputWrapper: "!bg-transparent !p-0 !shadow-none", // Removes unwanted styles
-                      }}
+                      
                     />
                   </div>
 
